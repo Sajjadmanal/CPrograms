@@ -28,6 +28,7 @@ int count ( struct dqueue ) ;
 void deldqueue ( struct dqueue * ) ;
 
 
+
 void main( )
 {
     struct dqueue dq ;
@@ -117,6 +118,7 @@ int delqatbeg ( struct dqueue *p )
         printf ( "\nQueue is empty." ) ;
         return 0 ;
     }
+    
     else
     {
         temp = p -> front ;
