@@ -45,6 +45,7 @@ int convertb(int noc)
 }
 
 
+
 char *base(char no[] , int b , int b1)
 {
 	int i,no2=0,r;
@@ -104,7 +105,8 @@ char *add(char no[] , char no1[] , int b , int b1)
 		{
 			no1[i] = '0';
 		}
-	}	
+	}
+	
 	else if(strlen(no1) > strlen(no))
 	{
 		j = strlen(no1) - strlen(no);
