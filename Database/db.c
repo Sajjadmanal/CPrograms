@@ -2,14 +2,12 @@
 #include<stdlib.h>
 #include<string.h>
 
-
 struct sll
 {
 	char name[20];
 	int sal,age;
 	struct sll *link;
 }*head,*temp,*temp1;
-
 
 int len()
 {
@@ -31,7 +29,6 @@ int len()
 	}
 	return len;
 }
-
 
 void ins()
 {
@@ -61,7 +58,6 @@ void ins()
 	}
 	printf("data inserted \n");
 }
-
 
 void del()
 {
