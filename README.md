@@ -1,4 +1,4 @@
 # CPrograms
 =========
 
-Different programs in language- C.
+Different programs which I practiced while learning the language- C
